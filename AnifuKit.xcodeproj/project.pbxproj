@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		425272B9BCD5491CF0F4CBAE /* Pods_AnifuKit_AnifuKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C97C50ECC22C7867239EA395 /* Pods_AnifuKit_AnifuKitTests.framework */; };
+		52FB38DEE8952967D84EFF7F /* Pods_AnifuKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E0AAB4C49A702D20CAD66CC /* Pods_AnifuKit.framework */; };
+		B06E5D6D2AEF688100F6F62C /* AnifuKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = B06E5D6C2AEF688100F6F62C /* AnifuKit.docc */; };
+		B06E5D732AEF688100F6F62C /* AnifuKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B06E5D682AEF688100F6F62C /* AnifuKit.framework */; };
+		B06E5D782AEF688100F6F62C /* AnifuKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06E5D772AEF688100F6F62C /* AnifuKitTests.swift */; };
+		B06E5D792AEF688100F6F62C /* AnifuKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B06E5D6B2AEF688100F6F62C /* AnifuKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B06E5D842AEF698C00F6F62C /* AnifuColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06E5D832AEF698C00F6F62C /* AnifuColorPicker.swift */; };
+		B06E5D882AEF81EA00F6F62C /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06E5D872AEF81EA00F6F62C /* UIColor+Extension.swift */; };
+		B06E5D8A2AEF839900F6F62C /* AnifuFontPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06E5D892AEF839900F6F62C /* AnifuFontPicker.swift */; };
+		B06E5D8C2AEF85F700F6F62C /* AnifuDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06E5D8B2AEF85F700F6F62C /* AnifuDateFormatter.swift */; };
+		B06E5D8E2AEFA4CD00F6F62C /* AnifuImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06E5D8D2AEFA4CD00F6F62C /* AnifuImagePicker.swift */; };
+		B06E5D902AEFAC8000F6F62C /* AnifuKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B06E5D8F2AEFAC8000F6F62C /* AnifuKit.podspec */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B06E5D742AEF688100F6F62C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B06E5D5F2AEF688100F6F62C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B06E5D672AEF688100F6F62C;
+			remoteInfo = AnifuKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E0AAB4C49A702D20CAD66CC /* Pods_AnifuKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnifuKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFB8F2F16E21CD162027AA0 /* Pods-AnifuKit-AnifuKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnifuKit-AnifuKitTests.release.xcconfig"; path = "Target Support Files/Pods-AnifuKit-AnifuKitTests/Pods-AnifuKit-AnifuKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		48243027114E054CAAA43D35 /* Pods-AnifuKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnifuKit.debug.xcconfig"; path = "Target Support Files/Pods-AnifuKit/Pods-AnifuKit.debug.xcconfig"; sourceTree = "<group>"; };
+		58BDD80BAFD135FDFD93FA64 /* Pods-AnifuKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnifuKit.release.xcconfig"; path = "Target Support Files/Pods-AnifuKit/Pods-AnifuKit.release.xcconfig"; sourceTree = "<group>"; };
+		8382D16039D10AD77A9FB2D4 /* Pods-AnifuKit-AnifuKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnifuKit-AnifuKitTests.debug.xcconfig"; path = "Target Support Files/Pods-AnifuKit-AnifuKitTests/Pods-AnifuKit-AnifuKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B06E5D682AEF688100F6F62C /* AnifuKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnifuKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06E5D6B2AEF688100F6F62C /* AnifuKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnifuKit.h; sourceTree = "<group>"; };
+		B06E5D6C2AEF688100F6F62C /* AnifuKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = AnifuKit.docc; sourceTree = "<group>"; };
+		B06E5D722AEF688100F6F62C /* AnifuKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnifuKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06E5D772AEF688100F6F62C /* AnifuKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnifuKitTests.swift; sourceTree = "<group>"; };
+		B06E5D832AEF698C00F6F62C /* AnifuColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnifuColorPicker.swift; sourceTree = "<group>"; };
+		B06E5D872AEF81EA00F6F62C /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		B06E5D892AEF839900F6F62C /* AnifuFontPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnifuFontPicker.swift; sourceTree = "<group>"; };
+		B06E5D8B2AEF85F700F6F62C /* AnifuDateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnifuDateFormatter.swift; sourceTree = "<group>"; };
+		B06E5D8D2AEFA4CD00F6F62C /* AnifuImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnifuImagePicker.swift; sourceTree = "<group>"; };
+		B06E5D8F2AEFAC8000F6F62C /* AnifuKit.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AnifuKit.podspec; sourceTree = "<group>"; };
+		C97C50ECC22C7867239EA395 /* Pods_AnifuKit_AnifuKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnifuKit_AnifuKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B06E5D652AEF688100F6F62C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FB38DEE8952967D84EFF7F /* Pods_AnifuKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06E5D6F2AEF688100F6F62C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06E5D732AEF688100F6F62C /* AnifuKit.framework in Frameworks */,
+				425272B9BCD5491CF0F4CBAE /* Pods_AnifuKit_AnifuKitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		238F4D0EDA1ECA2A5E1F3FBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48243027114E054CAAA43D35 /* Pods-AnifuKit.debug.xcconfig */,
+				58BDD80BAFD135FDFD93FA64 /* Pods-AnifuKit.release.xcconfig */,
+				8382D16039D10AD77A9FB2D4 /* Pods-AnifuKit-AnifuKitTests.debug.xcconfig */,
+				3CFB8F2F16E21CD162027AA0 /* Pods-AnifuKit-AnifuKitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		55EA60E19F8D1666555B08DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E0AAB4C49A702D20CAD66CC /* Pods_AnifuKit.framework */,
+				C97C50ECC22C7867239EA395 /* Pods_AnifuKit_AnifuKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B06E5D5E2AEF688100F6F62C = {
+			isa = PBXGroup;
+			children = (
+				B06E5D8F2AEFAC8000F6F62C /* AnifuKit.podspec */,
+				B06E5D6A2AEF688100F6F62C /* AnifuKit */,
+				B06E5D762AEF688100F6F62C /* AnifuKitTests */,
+				B06E5D692AEF688100F6F62C /* Products */,
+				238F4D0EDA1ECA2A5E1F3FBA /* Pods */,
+				55EA60E19F8D1666555B08DE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B06E5D692AEF688100F6F62C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B06E5D682AEF688100F6F62C /* AnifuKit.framework */,
+				B06E5D722AEF688100F6F62C /* AnifuKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B06E5D6A2AEF688100F6F62C /* AnifuKit */ = {
+			isa = PBXGroup;
+			children = (
+				B06E5D862AEF81BB00F6F62C /* Extensions */,
+				B06E5D822AEF697F00F6F62C /* AnifuHelper */,
+				B06E5D6B2AEF688100F6F62C /* AnifuKit.h */,
+				B06E5D6C2AEF688100F6F62C /* AnifuKit.docc */,
+			);
+			path = AnifuKit;
+			sourceTree = "<group>";
+		};
+		B06E5D762AEF688100F6F62C /* AnifuKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B06E5D772AEF688100F6F62C /* AnifuKitTests.swift */,
+			);
+			path = AnifuKitTests;
+			sourceTree = "<group>";
+		};
+		B06E5D822AEF697F00F6F62C /* AnifuHelper */ = {
+			isa = PBXGroup;
+			children = (
+				B06E5D832AEF698C00F6F62C /* AnifuColorPicker.swift */,
+				B06E5D892AEF839900F6F62C /* AnifuFontPicker.swift */,
+				B06E5D8B2AEF85F700F6F62C /* AnifuDateFormatter.swift */,
+				B06E5D8D2AEFA4CD00F6F62C /* AnifuImagePicker.swift */,
+			);
+			path = AnifuHelper;
+			sourceTree = "<group>";
+		};
+		B06E5D862AEF81BB00F6F62C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B06E5D872AEF81EA00F6F62C /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B06E5D632AEF688100F6F62C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06E5D792AEF688100F6F62C /* AnifuKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B06E5D672AEF688100F6F62C /* AnifuKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06E5D7C2AEF688100F6F62C /* Build configuration list for PBXNativeTarget "AnifuKit" */;
+			buildPhases = (
+				20DC1D2C22508A3B4A3763EF /* [CP] Check Pods Manifest.lock */,
+				B06E5D632AEF688100F6F62C /* Headers */,
+				B06E5D642AEF688100F6F62C /* Sources */,
+				B06E5D652AEF688100F6F62C /* Frameworks */,
+				B06E5D662AEF688100F6F62C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnifuKit;
+			productName = AnifuKit;
+			productReference = B06E5D682AEF688100F6F62C /* AnifuKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B06E5D712AEF688100F6F62C /* AnifuKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06E5D7F2AEF688100F6F62C /* Build configuration list for PBXNativeTarget "AnifuKitTests" */;
+			buildPhases = (
+				828071B59D65DD266E6DED23 /* [CP] Check Pods Manifest.lock */,
+				B06E5D6E2AEF688100F6F62C /* Sources */,
+				B06E5D6F2AEF688100F6F62C /* Frameworks */,
+				B06E5D702AEF688100F6F62C /* Resources */,
+				2CD9C8F7B9006F1B3F0D8086 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B06E5D752AEF688100F6F62C /* PBXTargetDependency */,
+			);
+			name = AnifuKitTests;
+			productName = AnifuKitTests;
+			productReference = B06E5D722AEF688100F6F62C /* AnifuKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B06E5D5F2AEF688100F6F62C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B06E5D672AEF688100F6F62C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					B06E5D712AEF688100F6F62C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B06E5D622AEF688100F6F62C /* Build configuration list for PBXProject "AnifuKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B06E5D5E2AEF688100F6F62C;
+			productRefGroup = B06E5D692AEF688100F6F62C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B06E5D672AEF688100F6F62C /* AnifuKit */,
+				B06E5D712AEF688100F6F62C /* AnifuKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B06E5D662AEF688100F6F62C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06E5D902AEFAC8000F6F62C /* AnifuKit.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06E5D702AEF688100F6F62C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20DC1D2C22508A3B4A3763EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnifuKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CD9C8F7B9006F1B3F0D8086 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnifuKit-AnifuKitTests/Pods-AnifuKit-AnifuKitTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnifuKit-AnifuKitTests/Pods-AnifuKit-AnifuKitTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnifuKit-AnifuKitTests/Pods-AnifuKit-AnifuKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		828071B59D65DD266E6DED23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnifuKit-AnifuKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B06E5D642AEF688100F6F62C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06E5D8A2AEF839900F6F62C /* AnifuFontPicker.swift in Sources */,
+				B06E5D882AEF81EA00F6F62C /* UIColor+Extension.swift in Sources */,
+				B06E5D8C2AEF85F700F6F62C /* AnifuDateFormatter.swift in Sources */,
+				B06E5D6D2AEF688100F6F62C /* AnifuKit.docc in Sources */,
+				B06E5D842AEF698C00F6F62C /* AnifuColorPicker.swift in Sources */,
+				B06E5D8E2AEFA4CD00F6F62C /* AnifuImagePicker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06E5D6E2AEF688100F6F62C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06E5D782AEF688100F6F62C /* AnifuKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B06E5D752AEF688100F6F62C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B06E5D672AEF688100F6F62C /* AnifuKit */;
+			targetProxy = B06E5D742AEF688100F6F62C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B06E5D7A2AEF688100F6F62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B06E5D7B2AEF688100F6F62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B06E5D7D2AEF688100F6F62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48243027114E054CAAA43D35 /* Pods-AnifuKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.terretino.AnifuKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B06E5D7E2AEF688100F6F62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58BDD80BAFD135FDFD93FA64 /* Pods-AnifuKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.terretino.AnifuKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B06E5D802AEF688100F6F62C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8382D16039D10AD77A9FB2D4 /* Pods-AnifuKit-AnifuKitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terretino.AnifuKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B06E5D812AEF688100F6F62C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CFB8F2F16E21CD162027AA0 /* Pods-AnifuKit-AnifuKitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terretino.AnifuKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B06E5D622AEF688100F6F62C /* Build configuration list for PBXProject "AnifuKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06E5D7A2AEF688100F6F62C /* Debug */,
+				B06E5D7B2AEF688100F6F62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06E5D7C2AEF688100F6F62C /* Build configuration list for PBXNativeTarget "AnifuKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06E5D7D2AEF688100F6F62C /* Debug */,
+				B06E5D7E2AEF688100F6F62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06E5D7F2AEF688100F6F62C /* Build configuration list for PBXNativeTarget "AnifuKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06E5D802AEF688100F6F62C /* Debug */,
+				B06E5D812AEF688100F6F62C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B06E5D5F2AEF688100F6F62C /* Project object */;
+}
