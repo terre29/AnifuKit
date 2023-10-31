@@ -7,8 +7,7 @@ Pod::Spec.new do |spec|
   spec.license = { type: 'MIT', file: 'LICENSE' }
 
   spec.platform = :ios, "11.0"
-  spec.requires_arc = true
-  spec.source = { git: "https://github.com/terre29/AnifuKit.git", tag: "v#{spec.version}", submodules: true }
+  spec.source = { git: "https://github.com/terre29/AnifuKit.git", tag: "v#{spec.version}"}
   spec.source_files = "Anifu/**/*.{h,swift}"
 
   spec.dependency "Kingfisher"
