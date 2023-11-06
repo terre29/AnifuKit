@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.authors = { "Anifu" => "Terretino" }
   spec.license = { type: 'MIT', file: 'LICENSE' }
 
-  spec.platform = :ios, "11.0"
+  spec.platform = :ios, "12.0"
   spec.source = { git: "https://github.com/terre29/AnifuKit.git", :branch => "master" }
   spec.source_files = "AnifuKit/**/*.{h,swift}"
 
