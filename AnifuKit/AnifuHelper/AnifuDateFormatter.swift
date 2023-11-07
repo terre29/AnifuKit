@@ -19,7 +19,7 @@ public class AnifuDateFormatter: DateFormatter {
      /// Accepted format is:
      /// > "MMyyyy"
      
-    func formatDate(format: String) -> DateFormatter? {
+    public func formatDate(format: String) -> DateFormatter? {
         guard let format = DateFormat(rawValue: format) else {
             return nil
         }

@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 extension UIColor {
-    convenience init?(hex: String, alpha: CGFloat = 1) {
+    public convenience init?(hex: String, alpha: CGFloat = 1) {
         var chars = Array(hex.hasPrefix("#") ? hex.dropFirst() : hex[...])
         switch chars.count {
         case 3: chars = chars.flatMap { [$0, $0] }

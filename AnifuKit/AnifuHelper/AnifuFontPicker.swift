@@ -11,19 +11,19 @@ import UIKit
 public class AnifuFontPicker {
     public static let pick = AnifuFontPicker()
     
-    var bodyText: UIFont {
+    public var bodyText: UIFont {
         return UIFont.systemFont(ofSize: 16, weight: .regular)
     }
     
-    var highlightText: UIFont {
+    public var highlightText: UIFont {
         return UIFont.systemFont(ofSize: 18, weight: .bold)
     }
     
-    var superHighlightText: UIFont {
+    public var superHighlightText: UIFont {
         return UIFont.systemFont(ofSize: 20, weight: .black)
     }
     
-    var titleText: UIFont {
+    public var titleText: UIFont {
         return UIFont.systemFont(ofSize: 24, weight: .bold)
     }
     

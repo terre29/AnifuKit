@@ -11,15 +11,15 @@ import UIKit
 public class AnifuColorPicker {
     public static let shared = AnifuColorPicker()
     
-    var accentColor: UIColor {
+    public var accentColor: UIColor {
         return UIColor(hex: "#FFC100")!
     }
     
-    var secondColor: UIColor {
+    public var secondColor: UIColor {
         return UIColor(hex: "#003EFF")!
     }
     
-    var secondaryColor: UIColor {
+    public var secondaryColor: UIColor {
         return UIColor(hex: "#FBA023")!
     }
 }
