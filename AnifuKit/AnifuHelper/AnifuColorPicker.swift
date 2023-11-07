@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 public class AnifuColorPicker {
-    public static let shared = AnifuColorPicker()
+    public static let pick = AnifuColorPicker()
     
     public var accentColor: UIColor {
         return UIColor(hex: "#FFC100")!
